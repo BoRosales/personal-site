@@ -1,3 +1,5 @@
+/************* General styles *************/
+
 body {
     margin: 0;
     text-align: center;
@@ -16,7 +18,7 @@ hr {
 if there is width set, then you will need to center with margin: auto */
 
 
-/* 1em = 16px // rem root em, means to ignore parent containers sizing*/
+/* 1em = 16px // rem: root em, means to ignore parent containers sizing*/
 
 h1 {
     font-family: 'Sacramento', cursive;
@@ -45,6 +47,9 @@ h3 {
     color: #11468F;
 }
 
+
+/************* TopContainer styles *************/
+
 .pro {
     text-decoration: underline;
 }
@@ -55,14 +60,17 @@ h3 {
     padding-top: 100px;
 }
 
+/************* MiddleContainer styles *************/
+
 .middle-container p {
     margin-bottom: 3rem;
 }
 
+
+/************* BottomContainer styles *************/
+
 .bottom-container {
-    /* position: fixed; */
     background-color: #66BFBF;
-    height: 6rem;
     margin-top: 4rem;
     padding: 2rem 2rem;
 }
@@ -70,6 +78,10 @@ h3 {
 .bottom-container p {
     margin-bottom: 0;
     color: #EAF6F6;
+}
+
+.contact-me p {
+    padding-bottom: 1.75rem;
 }
 
 .footer-link {
@@ -81,10 +93,6 @@ h3 {
     width: 50%;
     text-align: left;
     line-height: 2;
-}
-
-.contact-me p {
-    padding-bottom: 1.75rem;
 }
 
 
