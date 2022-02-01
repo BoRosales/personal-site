@@ -1,6 +1,15 @@
 /************* General styles *************/
 
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
 body {
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -47,8 +56,17 @@ h3 {
     color: #11468F;
 }
 
+p {
+    line-height: 2;
+}
+
 
 /************* TopContainer styles *************/
+
+.intro {
+    margin: 0 auto;
+    width:30%;
+}
 
 .pro {
     text-decoration: underline;
@@ -57,10 +75,14 @@ h3 {
 .top-container {
     background-color: #D3DEDC;
     position: relative;
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 
 /************* MiddleContainer styles *************/
+
+.middle-container {
+    margin: 6.25rem 0;
+}
 
 .middle-container p {
     margin-bottom: 3rem;
@@ -78,10 +100,17 @@ h3 {
 .bottom-container p {
     margin-bottom: 0;
     color: #EAF6F6;
+    font-size: 0.75rem;
 }
 
 .contact-me p {
     padding-bottom: 1.75rem;
+    margin: 0 auto 1rem;
+    width: 30%;
+}
+
+.contact-me h3 {
+    margin-top: 3.5rem;
 }
 
 .footer-link {
@@ -118,14 +147,14 @@ h3 {
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
-    bottom: 300px;
+    left: 18.75rem;
+    bottom: 18.75rem;
 }
 
 .top-cloud {
     position: absolute;
-    right: 300px;
-    top: 50px;
+    right: 18.75rem;
+    top: 3.125rem;
 }
 
 
@@ -140,10 +169,10 @@ h3 {
     background-image: linear-gradient(to bottom, #11cdd4, #11999e);
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
-    border-radius: 8px;
-    font-family: Arial;
+    border-radius: .5rem;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
